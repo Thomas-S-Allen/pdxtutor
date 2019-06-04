@@ -1,0 +1,85 @@
+---
+title: 'My Teaching Philosophy'
+subtitle: ''
+summary: A brief discussion on my teaching philosophy.
+authors:
+- admin
+tags:
+- Teaching
+- Theories of Learning
+categories: []
+date: "2019-04-20T00:00:00Z"
+lastmod: "2019-06-02T00:00:00Z"
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+
+# Set captions for image gallery.
+gallery_item:
+- album: gallery
+  caption: Default
+  image: theme-default.png
+- album: gallery
+  caption: Ocean
+  image: theme-ocean.png
+- album: gallery
+  caption: Forest
+  image: theme-forest.png
+- album: gallery
+  caption: Dark
+  image: theme-dark.png
+- album: gallery
+  caption: Apogee
+  image: theme-apogee.png
+- album: gallery
+  caption: 1950s
+  image: theme-1950s.png
+- album: gallery
+  caption: Coffee theme with Playfair font
+  image: theme-coffee-playfair.png
+- album: gallery
+  caption: Cupcake
+  image: theme-cupcake.png
+---
+
+
+There are numerous models of teaching and learning. Although some of these models are quite ancient and simple, the past century has seen the development of sophisticated models that draw from psychology, biology and cognitive science. Much thought has also been given to the interaction of teaching and learning. This interaction is what Wink (2011, p. 12) calls pedagogy. The ways teachers can apply learning models and utilize pedagogies is quite varied, as are the results. Also varied are the subjects that are taught. First I will describe my teaching philosophy for the teaching of physics content. Then I will discuss the learning and teaching theories that I find to be the most relevant and how they relate to the teaching of physics. Finally, I briefly imagine how they will manifest in my classroom.
+
+Personally, I view physics as a dialog with nature (perhaps instead of dialog we could say discourse, since nature holds all the secrets). Physics is a conversation that involves more than simply learning facts about the world. It involves participating with the world, asking it questions and exploring its mysteries. One of my goals as a teacher is to engage my students by opening many avenues for them to approach this dialog. Physics is also a dialog with other people. Physicists, and all scientists, research, publish, critique and reflect through a dialog with each other. The ability to communicate effectively is essential for science to progress, and thus it should be a central part of a physics education. Therefore, I think that physics learners should write often about physics experiments, content and how it relates to their lives. As Wink (2011, p. 36) succinctly puts it, “We get smarter when we write.” I also believe that I as a teacher am an active participant with the learner. It is therefore important to critically evaluate and reflect upon my influence on the experience of the learner.
+
+Examining a teacher’s influence on a learner’s experiences requires the understanding of pedagogy. Wink (2011, p. 73) expands upon the earlier definition of pedagogy to state, “Pedagogy is the process of teaching and learning together. It is fundamentally about human interactions, the joy of playing with new ideas and the challenge of integrating those ideas in the real world.” Pedagogy is more than just the intersection of models of teaching and learning. It is social, cultural, political and personal. It can support or resist power structures and cultural hierarchies. Learning theorist Paulo Freire stated concisely, “What is really important is to discover that teaching is not a neutral process. It’s not a neutral action” (as cited by Wink (2011, p. 103)). Critical pedagogies have emerged, and have developed a vocabulary to allow this (Chapter 3 of Wink (2011)). This vocabulary can help a teacher reflect and understand their impact on learners, ideally with the goal of both transmitting knowledge and empowering learners. Therefore, we must consider the models of teaching and learning within the larger context of pedagogy.
+
+The models of learning that I find to be most relevant are; the progressive model, the constructivist model, the social constructivist model and the Gestalt model. For models of teaching, I will use the classifications of Wink (2011, p. 7): transmission, generative and transformative. As I will develop in more detail below, the learning theories I consider as relevant interact well with all three of the models of teaching and compliment each other to allow many avenues for a learner to approach a topic.
+The progressive model of learning, or progressivism, draws inspiration from evolutionary biology. One of the foremost proponents of progressivism, John Dewey “Accepted that the human ability to think, and to learn, had evolved as had all the other capacities of living organisms” (Phillips & Soltis, 2009, p. 38). The ability to learn allowed humans solve problems to preserve and improve their lives. In this view, learning is an active process, where the learner engages with with the world. Dewey describes this as, “If the living, experiencing being is an intimate participant in the activities of the world to which it belongs, then knowledge is a mode of participation” (as cited in Phillips and Soltis (2009, p. 38)). Key to the progressive model is Dewey’s concept of “Accept the child as the child is” (Wink, 2011, p. 123). Another important aspect of progressivism is participation in a community. The school is a community according to Dewey. Later researchers, Lave and Wenger, even define learning in terms of, “Increasing participation in communities of practice” (as cited in Phillips and Soltis (2009, p. 63)). As such, progressivists emphasize the idea of getting learners out of classrooms and involved in their community.
+One way to do this in physics is to connect the physics concepts with policy issues in society that are relevant to the learners. For example, the thermodynamics of climate change or the forces of head impacts and subsequent trauma. Learners can be encouraged to apply the concepts they learn in class to develop a greater understanding of these policy issues. This approach has multiple benefits. Learners can become informed on selected parts of the issue, and teach their peers what they have leaned. They can explore how the science informs our policy decisions and how consensus is formed. They can each become an ‘expert’ in an area of the policy helping to empower them. They could even present their work to the greater community through various means such as a letter to the editor of a newspaper or magazine.
+
+The constructivist model of learning focuses on the interaction between the learner’s current model of the world and new information. The learner encounters new information and new experiences with a model of the world already in place, called a schema. A learner’s schema is built on cognitive structures that develop over time and thus can vary in sophistication. Schema are affected by the learner’s interaction with the world. When the learner’s experience of the world matches their schema they have no need to adjust and are considered to be in equilibrium. When the learner’s experience and schema do not match, or information unknown to the learner’s schema is introduced, they are forced to either adjust their schema and adapt to the new experience, called accommodating, or not adjust their schema and reject the new experience, called assimilating. Being in this state of choice between accommodation and assimilation is called disequilibrium. Further, by adapting their schema, the learner alters their underlying cognitive structures. Phillips and Soltis (2009, p. 45) describe this process as, “At some point there will be a loss of equilibrium, and some change (most likely an addition) will be made to a cognitive structure in an attempt to accommodate to the novel aspects of the experience”. There are many physics demonstrations that might challenge the learner’s model of the world, and ideally would engage learners by placing their schema in disequilibrium. For example, getting shocked by a magneto or expanding a marshmallow in a vacuum. Learners can make meaning of these new ideas through unguided and guided reflection by writing about them in a personal physics journal. Further, physics onceptually lends itself to an organizational structure that can be utilized to help students make meaning with a mental map of the field. This mental map can be strengthened by connecting it to the learner’s greater world by including elements of a progressive model.
+
+The social constructivist model of learning considers, as the name implies, the social aspect of learning. Learning is mediated by language, and the knowledge that is passed on is socially created and curated (Phillips & Soltis, 2009, p. 52). This fundamentally affects how a learner makes meaning. As Phillips and Soltis (2009,p. 59) state, “The concepts and relationships captured in language are transmitted and acquired in a social medium.” Further, social constructivists argue that learners can achieve greater understanding when learning with peers. Central to social constructivism, is what education theorist Lev Vygotsky called the Zone of Proximal Development (ZPD) (Phillips & Soltis, 2009, 57). The ZPD are the ideas and concepts that a learner would be unable to understand and make meaning of on their own, but are able to by working with peers. In approaching learning as a social activity, social constructivism has much in common with progressivism. Social constructivism focuses more on group reflection while progressivism focuses more on community engagement. In physics, learners can work in groups to discuss a concept. They can be led to think about how they might want to test this concept and then be allowed to experiment. They can then reflect upon the results of that experiment.
+
+Finally, there is the Gestalt model of learning. In the Gestalt model, if the learner knows the elements of a problem and can mentally manipulate them, then they can connect these elements in ways that solve the problem. When the learner makes these connections it is called insight, or making meaning. Phillips and Soltis (2009, p. 35) state, “The learner or problem solver must be familiar with the elements that constitute the problem and its solution, and the overall situation must be surveyable.” With the stage set, the learner can make connections between possibly disparate concepts to develop a new understanding of the world. The Gestalt idea of ‘insight’ complements quite well Dewey’s concept of learning as an evolutionary adaptation and problem solving as a matter of survival. When confronted with a problem that must be solved, learners actively engage with that problem until it is solved. It is then incumbent upon the teacher to pose relevant problems that engage the learner. Further, in the Gestalt model, how learners reach insight may differ, encouraging teachers to approach an idea in multiple ways. An adequate understanding of physics for the high school level involves both the understanding of concepts, but also the ability to solve problems, often mathematical, relating to these concepts. These problems lend themselves to the Gestalt model of learning. They often require manipulating elements until connections are made and insight is achieved. This does require that the conditions are properly set for the learner to make these manipulations. Further, the the learner would need to have some previous exposure to the elements of the problem, whether in a class problem or in the greater world.
+
+Now to the models of learning. The transmission teaching model is the traditional lecture model with, “The teacher in front of the class pouring knowledge into students’ heads.” (Wink, 2011, p. 23). While this is what many think of when they think of teaching, it typically is not the most effective model, and misses some of the key methods through which people learn. Wink (2011, p. 23) describes this limitation, “The teacher-directed lesson too often lacks opportunity for students to interact with one another and with the ideas that they are studying.” It imagines the learner as a passive receiver of information and discounts the learner’s agency in the learning process. Although this model of teaching is not the best suited to the models of learning discussed above, if used along side other models it still has a place in the classroom. An example of this might be giving a brief lecture to introduce the elements of a problem the learner will encounter in a problem to set up a Gestalt learning environment.
+
+The generative model of teaching considers students as active participants in the leaning process, by emphasizing that the teacher and the learner are partners in learning. It requires learners to reflect on new ideas both individually and as a group. As Wink (2011, p. 24) describes, “The generative model maintains that students must actively engage in their learning process.” The teacher’s role is to facilitate the learning process and create the conditions so that learners can make meaning. This model of teaching well complements the models of learning discussed above. Group discussions and experiments discussed in conjunction with social constructivism match with a generative model of teaching.
+
+In the transformative model of teaching not only are students generating knowledge, but they are applying their learning to the greater world. Wink (2011, p. 24) states that this model, “Starts in the classroom, but goes out into the community to make life a little better.” Using the language of critical pedagogy, the transformative model can be used to empower learners by encouraging them to change the world around them. A good example of a transformative approach is seen in the example discussed with the progressive model of learning. Another transformative approach would be to encourage learners to to explore the interaction between physics and other fields. For example, to explore how physics interacts with art, learners could examine the bluish color of distant objects in Leonardo Da Vinci paintings.
+
+I believe a classroom should be a dynamic place where learners and teachers are active and engaged. A space where learners are meet with empathy so they can ask questions and explore the world around them. I expect by utilizing these models, I can create a learning environment that is inclusive to all learners with multiple points of access to ideas. For instance, in given physics class, an idea could be introduced with a demonstration, reflected upon individually, followed by a group discussion, a brief lecture could be used to transmit some elements of the problem, then the learners could be set upon manipulating these elements, alone or in a group. They could then be sent from the class instructed to look for ways that idea is relevant in their lives. And, I imagine a classroom that extends to the community. Engaging the learners with their world and their neighbors through science fairs, local science groups and letters to policy makers. 
+
+Phillips, D. C., & Soltis, J. F. (2009). Critical pedagogy: Notes form the real world, fourth edition. New York: Teachers College Press.
+Wink, J. (2011). Critical pedagogy: Notes form the real world, fourth edition. Boston: Pearson.

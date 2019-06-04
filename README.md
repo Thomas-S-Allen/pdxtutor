@@ -1,2 +1,0 @@
-# pdxtutor
-A tutoring website.

@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Blogdown
+.DS_Store
+public/
+Prices_keynote.key
+chalkboard_low.png

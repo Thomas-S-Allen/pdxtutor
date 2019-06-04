@@ -1,0 +1,4 @@
+theme = "hugo-academic"
+baseURL = "https://www.pdxtutor.com"
+languageCode = "en-us"
+title = "PDX Tutor"
