@@ -73,7 +73,51 @@
   translation: Interests
 
 - id: subjects
-  translation: Subjects
+  translation: Subjects9:02:01 AM: Build ready to start
+9:02:03 AM: build-image version: 9e0f207a27642d0115b1ca97cd5e8cebbe492f63
+9:02:03 AM: build-image tag: v3.3.2
+9:02:03 AM: buildbot version: 75cd99f62ada9e21edea53208e8baf0eab85a045
+9:02:04 AM: Fetching cached dependencies
+9:02:04 AM: Starting to download cache of 255.0KB
+9:02:04 AM: Finished downloading cache in 89.916357ms
+9:02:04 AM: Starting to extract cache
+9:02:04 AM: Failed to fetch cache, continuing with build
+9:02:04 AM: Starting to prepare the repo for build
+9:02:05 AM: No cached dependencies found. Cloning fresh repo
+9:02:05 AM: git clone https://github.com/Thomas-S-Allen/pdxtutor
+9:02:08 AM: Preparing Git Reference refs/heads/master
+9:02:09 AM: Starting build script
+9:02:09 AM: Installing dependencies
+9:02:11 AM: Downloading and installing node v10.16.0...
+9:02:11 AM: Downloading https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz...
+9:02:12 AM:   0.0%
+9:02:12 AM: 
+####################
+9:02:12 AM:             27.9%
+9:02:12 AM: 
+##################################################
+9:02:12 AM: #                       70.9%
+9:02:12 AM: 
+#####################################################
+9:02:12 AM: ################### 100.0%
+9:02:12 AM: Computing checksum with sha256sum
+9:02:12 AM: Checksums matched!
+9:02:15 AM: Now using node v10.16.0 (npm v6.9.0)
+9:02:15 AM: Attempting ruby version 2.6.2, read from environment
+9:02:16 AM: Using ruby version 2.6.2
+9:02:17 AM: Using PHP version 5.6
+9:02:17 AM: Started restoring cached go cache
+9:02:17 AM: Finished restoring cached go cache
+9:02:17 AM: unset GOOS;
+9:02:17 AM: unset GOARCH;
+9:02:17 AM: export GOROOT='/opt/buildhome/.gimme/versions/go1.12.linux.amd64';
+9:02:17 AM: export PATH="/opt/buildhome/.gimme/versions/go1.12.linux.amd64/bin:${PATH}";
+9:02:17 AM: go version >&2;
+9:02:17 AM: export GIMME_ENV='/opt/buildhome/.gimme/env/go1.12.linux.amd64.env';
+9:02:17 AM: go version go1.12 linux/amd64
+9:02:19 AM: failed during stage 'building site': Build script returned non-zero exit code: 255
+9:02:17 AM: Installing missing commands
+9:02:20 AM: Shutting down logging, 18 messages pending
 
 - id: education
   translation: Education
