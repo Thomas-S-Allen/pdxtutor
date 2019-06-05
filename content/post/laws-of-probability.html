@@ -1,0 +1,150 @@
+---
+title: "Laws of Probability"
+author: "Thomas Allen"
+date: 2019-06-03T21:00:00-00:00
+categories: ["R"]
+tags: ["probability", "laws", "frequentist"]
+# Set captions for image gallery.
+gallery_item:
+- album: gallery
+  caption: Default
+  image: theme-default.png
+---
+
+
+
+<div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>We will assume a frequintist outlook as we discuss the Laws of Probability. This means that we are interested in the long term outcomes of many iterations of a given experiment. Thus, for a given experiment, or random process, repeated for <span class="math inline">\(n\)</span> outcomes, if <span class="math inline">\(n(A)\)</span> is the number of outcomes leading to event <span class="math inline">\(A\)</span>, then the probability of event <span class="math inline">\(A\)</span> occuring is
+<span class="math display">\[
+P(A) = \lim_{n\to\infty}  \frac{n(A)}{n}
+\]</span></p>
+<p>The value of the probability <span class="math inline">\(P(A)\)</span> is defined to be between <span class="math inline">\(0\)</span> and <span class="math inline">\(1\)</span>, or
+<span class="math display">\[
+0 \leq P(A) \leq 1
+\]</span></p>
+<p>We will call the set of all possible <strong>outcomes</strong> of a given experiement the <strong>Sample Space</strong>, or <span class="math inline">\(\Omega\)</span> for short, and an <strong>event</strong> is a set of one or more outcomes. Because every possible set is in the sample space:
+<span class="math display">\[
+P(\Omega) = 1
+\]</span>
+We are often also interested in <strong>disjoint</strong> sets. These are sets that cannot occur at the same time.</p>
+<p>Here is a summary of these definions:</p>
+<ul>
+<li><strong>Outcome</strong>: a possible result of a random process</li>
+<li><strong>Event</strong>: any set of one or more outcome</li>
+<li><strong>Sample Space</strong>: the set of all outcomes</li>
+<li><strong>disjoint sets</strong>: these are two sets that cannot occur at the same time</li>
+</ul>
+<p>For example, consider the number of pips that present on a roll of a fair die. There are six possible disjoint outcomes <span class="math inline">\(\Omega = {1,2,3,4,5,6}\)</span>. We can consider events by building sets of these possible outcomes. So the event that an even number is presented would be the set of outcomes <span class="math inline">\(A_{Even} = {2,4,6}\)</span>. While the event that a roll is odd is <span class="math inline">\(A_{Odd}\)</span>. Because an outcome cannot be both even and odd, these events are disjoint. We can also consider events that are not disjoint. For example, the set of all die rolls that present a number greater than 3, <span class="math inline">\(A_{&gt; 3} = {4,5,6}\)</span>, is not disjoint with either <span class="math inline">\(A_{Even}\)</span> or <span class="math inline">\(A_{Odd}\)</span>.</p>
+<p>If we have disjoint sets, we can determine the number of outcomes in a union of the two sets with <strong>Addition Rule for Disjoint Events</strong>, that is, the number of outcomes in an event composed of the union of two or more events (or outcomes) is
+<span class="math display">\[
+N(A~or~B) = n(A) + n(B)
+\]</span></p>
+<p>If we have sets that are not disjoint, however, we now need to account for the overlap between the sets. This is the <strong>General Addition Rule</strong>:
+<span class="math display">\[
+N(A~or~B) = n(A) + n(B) - n(A~and~B)
+\]</span>
+We can visualize these possibilities with a Venn Diagram <img src="./laws-prob-01.jpg" alt="Chalkboard 1" />.</p>
+<p>Using the laws of probabilility, we can recast these possibilities into probabilities, the Addition Rule
+<span class="math display">\[
+P(A~or~B) = P(A) + P(B)
+\]</span>
+and the General Addition Rule</p>
+<p><span class="math display">\[
+P(A~or~B) = P(A) + P(B) - P(A~and~B)
+\]</span></p>
+<p>Further, generally for mutually exlusive events, <span class="math inline">\(E_{i}\)</span> for <span class="math inline">\(1~\leq~i~\leq~n\)</span>
+<span class="math display">\[
+P(\bigcup_{i=1}^{n}E_{i}) =  \sum_{i=1}^{n} P(E_{i})
+\]</span></p>
+<p>Another we we can think about sets of outcomes and events is as a list of all the possible disjoint events along with their associated probabilities. This list is a <strong>Probability Distribution</strong>. For example, in the experiement which we roll a fair die, each outcome in the sample space has a probability of <span class="math inline">\(\frac{1}{6}\)</span>. Therefore, the probability distribution is</p>
+<table>
+<thead>
+<tr class="header">
+<th>Number</th>
+<th align="center">Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td align="center"><span class="math inline">\(\frac{1}{6}\)</span></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td align="center"><span class="math inline">\(\frac{1}{6}\)</span></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td align="center"><span class="math inline">\(\frac{1}{6}\)</span></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td align="center"><span class="math inline">\(\frac{1}{6}\)</span></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td align="center"><span class="math inline">\(\frac{1}{6}\)</span></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td align="center"><span class="math inline">\(\frac{1}{6}\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>If we consider the possible events of rolling an even or an odd number, the probability distribution is</p>
+<table>
+<thead>
+<tr class="header">
+<th>Event</th>
+<th align="center">Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Even</td>
+<td align="center"><span class="math inline">\(\frac{1}{2}\)</span></td>
+</tr>
+<tr class="even">
+<td>Odd</td>
+<td align="center"><span class="math inline">\(\frac{1}{2}\)</span></td>
+</tr>
+</tbody>
+</table>
+<div id="law-of-total-probability" class="section level3">
+<h3>Law of Total Probability</h3>
+<p>For any event <span class="math inline">\(A\)</span>, we call its <strong>compliment</strong> <span class="math inline">\(A_{c}\)</span> to be all outcomes that do not occur in <span class="math inline">\(A\)</span>. Therefore, the union of an event and its compliment is the sample space we have
+<span class="math display">\[
+P(\Omega) = 1 = P(A) + P(A^{c})
+\]</span>
+We can rearrange to see that
+<span class="math display">\[
+P(A^{c}) = 1 - P(A) 
+\]</span></p>
+<p>Let A and B be any two events, then
+<span class="math display">\[
+P(A) = P(A~and~B) + P(A~and~B^{c})
+\]</span></p>
+<p>We call the compliment to the Sample Set, the <strong>Null Set</strong>.
+<span class="math display">\[
+\Omega^{c} = \emptyset
+\]</span>
+This set contains no outcomes. Further, the intersection of disjoint sets is the null set.</p>
+</div>
+<div id="conditional-probability" class="section level3">
+<h3>Conditional Probability</h3>
+<p>If we consider two sets that have joint outcomes, <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, then the conditional probability that <span class="math inline">\(A\)</span> happens, given <span class="math inline">\(B\)</span> happened is
+<span class="math display">\[
+P(A|B) = \frac{P(A~and~B)}{P(B)}
+\]</span></p>
+<p>Sometimes we say this as “the probability of <span class="math inline">\(A\)</span> given <span class="math inline">\(B\)</span>”. From the mutliplicatiopn rule, we can see
+<span class="math display">\[
+P(B)P(A|B) = P(A~and~B) = P(B~and~A) =  P(A)P(B|A)
+\]</span>
+And by rearranging we get <strong>Bayes Rule</strong>
+<span class="math display">\[
+P(A|B) = \frac{P(A)P(B|A)}{P(B)}
+\]</span></p>
+<p>When considering probabilities of experiments consisting of more than one</p>
+</div>
+</div>
