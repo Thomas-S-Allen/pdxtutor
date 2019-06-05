@@ -1,0 +1,122 @@
+---
+title: Laws of Probability
+author: ~
+date: '2019-06-04'
+slug: laws-of-probability
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+We will assume a frequintist outlook as we discuss the Laws of Probability.  This means that we are interested in the long term outcomes of many iterations of a given experiment.  Thus, for a given experiment, or random process, repeated for $n$ outcomes, if $n(A)$ is the number of outcomes leading to event $A$, then the probability of event $A$ occuring is
+$$
+P(A) = \lim_{n\to\infty}  \frac{n(A)}{n}
+$$
+
+The value of the probability $P(A)$ is defined to be between $0$ and $1$, or
+$$
+0 \leq P(A) \leq 1
+$$
+
+We will call the set of all possible **outcomes** of a given experiement the **Sample Space**, or $\Omega$ for short, and an **event** is a set of one or more outcomes.  Because every possible set is in the sample space:
+$$
+P(\Omega) = 1
+$$
+We are often also interested in **disjoint** sets.  These are sets that cannot occur at the same time.
+
+Here is a summary of these definions:
+
+  * **Outcome**: a possible result of a random process
+  * **Event**: any set of one or more outcome
+  * **Sample Space**: the set of all outcomes
+  * **disjoint sets**: these are two sets that cannot occur at the same time
+
+For example, consider the number of pips that present on a roll of a fair die.  There are six possible disjoint outcomes $\Omega = {1,2,3,4,5,6}$.  We can consider events by building sets of these possible outcomes.  So the event that an even number is presented would be the set of outcomes $A_{Even} = {2,4,6}$.  While the event that a roll is odd is $A_{Odd}$.  Because an outcome cannot be both even and odd, these events are disjoint.  We can also consider events that are not disjoint.  For example, the set of all die rolls that present a number greater than 3, $A_{> 3} = {4,5,6}$, is not disjoint with either $A_{Even}$ or $A_{Odd}$.
+
+If we have disjoint sets, we can determine the number of outcomes in a union of the two sets with **Addition Rule for Disjoint Events**, that is, the number of outcomes in an event composed of the union of two or more events (or outcomes) is 
+$$
+N(A~or~B) = n(A) + n(B)
+$$
+
+If we have sets that are not disjoint, however, we now need to account for the overlap between the sets.  This is the **General Addition Rule**:
+$$
+N(A~or~B) = n(A) + n(B) - n(A~and~B)
+$$
+We can visualize these possibilities with a Venn Diagram ![Chalkboard 1](/static/img/laws-prob-01.jpg). 
+
+Using the laws of probabilility, we can recast these possibilities into probabilities, the Addition Rule
+$$
+P(A~or~B) = P(A) + P(B)
+$$
+and the General Addition Rule
+
+$$
+P(A~or~B) = P(A) + P(B) - P(A~and~B)
+$$
+
+Further, generally for mutually exlusive events, $E_{i}$ for $1~\leq~i~\leq~n$
+$$
+P(\bigcup_{i=1}^{n}E_{i}) =  \sum_{i=1}^{n} P(E_{i})
+$$
+
+
+Another we we can think about sets of outcomes and events is as a list of all the possible disjoint events along with their associated probabilities.  This list is a **Probability Distribution**.  For example, in the experiement which we roll a fair die, each outcome in the sample space has a probability of $\frac{1}{6}$. Therefore, the probability distribution is 
+
+| Number | Probability | 
+| --- |:---:| 
+| 1 | $\frac{1}{6}$ | 
+| 2 | $\frac{1}{6}$ | 
+| 3 | $\frac{1}{6}$ | 
+| 4 | $\frac{1}{6}$ | 
+| 5 | $\frac{1}{6}$ | 
+| 6 | $\frac{1}{6}$ | 
+
+If we consider the possible events of rolling an even or an odd number, the probability distribution is
+
+| Event | Probability | 
+| --- |:---:| 
+| Even | $\frac{1}{2}$ | 
+| Odd | $\frac{1}{2}$ | 
+
+
+### Law of Total Probability
+
+For any event $A$, we call its **compliment** $A_{c}$ to be all outcomes that do not occur in $A$.  Therefore, the union of an event and its compliment is the sample space we have
+$$
+P(\Omega) = 1 = P(A) + P(A^{c})
+$$
+We can rearrange to see that
+$$
+P(A^{c}) = 1 - P(A) 
+$$
+
+Let A and B be any two events, then 
+$$
+P(A) = P(A~and~B) + P(A~and~B^{c})
+$$
+
+We call the compliment to the Sample Set, the **Null Set**.
+$$
+\Omega^{c} = \emptyset
+$$
+This set contains no outcomes.  Further, the intersection of disjoint sets is the null set.  
+
+### Conditional Probability
+
+If we consider two sets that have joint outcomes, $A$ and $B$, then the conditional probability that $A$ happens, given $B$ happened is
+$$
+P(A|B) = \frac{P(A~and~B)}{P(B)}
+$$
+
+Sometimes we say this as "the probability of $A$ given $B$".  From the mutliplicatiopn rule, we can see 
+$$
+P(B)P(A|B) = P(A~and~B) = P(B~and~A) =  P(A)P(B|A)
+$$
+And by rearranging we get **Bayes Rule**
+$$
+P(A|B) = \frac{P(A)P(B|A)}{P(B)}
+$$
+
+When considering probabilities of experiments consisting of more than one 

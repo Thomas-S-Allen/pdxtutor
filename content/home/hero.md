@@ -1,51 +1,55 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+widget = "hero"
+active = true
+date = 2017-10-15T00:00:00
 
-title = ""
+#title = "Thomas Allen"
 
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
-#hero_media = "athens.jpg"
+# Order that this section will appear in.
+weight = 3
 
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
+# Overlay a color or image (optional).
+#   Deactivate an option by commenting out the line, prefixing it with `#`.
+[header]
+  overlay_color = "#666"  # An HTML color value.
+  overlay_img = "cep_ob3-500.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
-  
-  # Background image.
-   image = "athens_crop.png"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
-  text_color_light = true
-
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
+# Call to action button (optional).
+#   Activate the button by specifying a URL and button label below.
+#   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "#contact"
-  #url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Free First Session"
- # icon_pack = "fas"
- # icon = "download"
-  
-[cta_alt]
- # url = "https://sourcethemes.com/academic/"
- # label = "View Documentation"
-
-# Note. An optional note to show underneath the links.
-[cta_note]
-#  label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
+#  url = "./post/getting-started/"
+#  label = '<i class="fa fa-download"></i> Install Now'
 +++
 
+Welcome to the website of Thomas S. Allen.
+
+<!--
+The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
+<br>
+<small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
+<br><br>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
+<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe>
+
+<script type="text/javascript">
+  (function defer() {
+    if (window.jQuery) {
+      jQuery(document).ready(function(){
+        GetLatestReleaseInfo();
+      });
+    } else {
+      setTimeout(function() { defer() }, 50);
+    }
+  })();  
+  function GetLatestReleaseInfo() {
+    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
+      let release = json[0];
+      // let downloadURL = release.zipball_url;
+      $('#academic-release').text('Latest release ' + release.name);  
+    });    
+}  
+</script>
+-->
