@@ -1,5 +1,5 @@
 [build]
-  command = "hugo"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --themesDir ../../"
   base    = "www.pdxtutor.com"
   publish = "www.pdxtutor.com/public"
 
