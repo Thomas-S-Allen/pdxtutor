@@ -1,4 +1,4 @@
 theme = "hugo-academic"
-baseURL = "https://pdxtutor.netlify.com"
+baseURL = "http://example.org"
 languageCode = "en-us"
 title = "PDX Tutor"
