@@ -29,31 +29,31 @@ image:
 projects: []
 
 # Set captions for image gallery.
-gallery_item:
-- album: gallery
-  caption: Default
-  image: theme-default.png
-- album: gallery
-  caption: Ocean
-  image: theme-ocean.png
-- album: gallery
-  caption: Forest
-  image: theme-forest.png
-- album: gallery
-  caption: Dark
-  image: theme-dark.png
-- album: gallery
-  caption: Apogee
-  image: theme-apogee.png
-- album: gallery
-  caption: 1950s
-  image: theme-1950s.png
-- album: gallery
-  caption: Coffee theme with Playfair font
-  image: theme-coffee-playfair.png
-- album: gallery
-  caption: Cupcake
-  image: theme-cupcake.png
+#gallery_item:
+#- album: gallery
+#  caption: Default
+#  image: theme-default.png
+#- album: gallery
+#  caption: Ocean
+#  image: theme-ocean.png
+#- album: gallery
+#  caption: Forest
+#  image: theme-forest.png
+#- album: gallery
+#  caption: Dark
+#  image: theme-dark.png
+#- album: gallery
+#  caption: Apogee
+#  image: theme-apogee.png
+#- album: gallery
+#  caption: 1950s
+#  image: theme-1950s.png
+#- album: gallery
+#  caption: Coffee theme with Playfair font
+#  image: theme-coffee-playfair.png
+#- album: gallery
+#  caption: Cupcake
+#  image: theme-cupcake.png
 ---
 
 
