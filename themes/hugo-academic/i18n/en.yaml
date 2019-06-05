@@ -72,9 +72,6 @@
 - id: interests
   translation: Interests
 
-- id: subjects
-  translation: Subjects
-
 - id: education
   translation: Education
 

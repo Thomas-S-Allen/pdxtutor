@@ -20,7 +20,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I am a science educator and researcher.
 
-subjects:
+interests:
 - Physics 
 - Astronomy
 - Mathematics
