@@ -1,7 +1,7 @@
 [build]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --themesDir ../../"
-  base    = "www.pdxtutor.com"
-  publish = "www.pdxtutor.com/public"
+  base    = "exampleSite"
+  publish = "exampleSite/public"
 
 [build.environment]
   HUGO_THEME = "repo"
