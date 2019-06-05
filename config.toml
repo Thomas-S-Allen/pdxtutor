@@ -1,4 +1,4 @@
 theme = "hugo-academic"
-baseURL = "https://www.pdxtutor.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "PDX Tutor"
