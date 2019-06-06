@@ -20,11 +20,11 @@ weight = 3
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-#  url = "./post/getting-started/"
-#  label = '<i class="fa fa-download"></i> Install Now'
+  url = "./#contact/"
+  label = 'Free Session'
 +++
 
-Welcome to the website of Thomas S. Allen.
+Welcom to PDXTutor.com.  Sign up below for a free tutoring session.
 
 <!--
 The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
